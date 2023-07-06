@@ -1,2 +1,2 @@
 #!/bin/bash
-groups "$(whoami)"
+groups | cut -d ' ' -f 1
