@@ -1,2 +1,2 @@
 #!/bin/bash
-su -c "chown betty hello" guillaume
+sudo -u guillaume chown betty hello
