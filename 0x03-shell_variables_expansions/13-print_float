@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $NUM | sort -n | awk '{printf "%.2f\n", $1}'
+printf "%.2f\n" $NUM | sort -g
