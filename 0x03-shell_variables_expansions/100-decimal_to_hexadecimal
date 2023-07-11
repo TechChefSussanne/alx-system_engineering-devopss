@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "obase=16; $DECIMAL" | bc | tr '[:upper:]' '[:lower:]' | printf '%s\n' "$(cat)"
+printf '%s\n' $DECIMAL 
