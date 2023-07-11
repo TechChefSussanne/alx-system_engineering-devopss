@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((counter + 1))
+echo $(( counter % 2 == 0 ))
