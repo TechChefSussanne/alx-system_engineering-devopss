@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "The result is: $(bc <<< "ibase=$WATER; obase=$BASE; $STIR + $WATER")"
